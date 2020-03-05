@@ -116,8 +116,7 @@ section {
     padding-top: 25px;
 }
 
-p,
-h3 {
+p, h3, h4 {
     font-family: 'polYrsaregular', "Georgia", serif;
     font-size: 25px; 
     margin-left: 25px;
@@ -247,11 +246,20 @@ li:hover {
 #video {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 5px;
 }
 
 #video .tel {
     display: none;
+}
+
+.sieste {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-left: 35%;
 }
 
 
@@ -336,6 +344,10 @@ li:hover {
         align-self: center;
         height: 200px;
         width: 400px;
+    }
+
+    .sieste {
+        margin-left: 15%;
     }
 }
 
@@ -484,12 +496,26 @@ li:hover {
         display: block;
     }
 
-    h3 {
+    .sieste {
+        display: flex;
+        height: 200px;
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+
+    h3, h4 {
     font-family: 'polYrsaregular', "Georgia", serif;
     font-size: 25px; 
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 0;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
     }
 
     p {
@@ -524,4 +550,4 @@ li:hover {
     justify-content: center;
     padding-bottom: 20px;
 }
-
+}
